@@ -40,6 +40,12 @@ Auszug aus der Definition of Done — alle Punkte sind im Repo noch offen:
 
 Dieses Repository enthält keine Software, sondern die Vereinbarung darüber, was die Software können muss. Es beschreibt den Lernkreis aus Schreiben, Erkennen, kurzem Hinweis und Weiterschreiben auf derselben Seite — und macht ihn in prüfbaren Punkten abhakbar. Für die Entwicklung ist das der eigentliche Wert: Mensch und Agent bauen nicht aneinander vorbei, und jeder Fortschritt muss am Gerät belegt werden. Der Preis ist Ehrlichkeit — solange die Checkboxen leer sind, ist der Tutor ein Versprechen, kein Produkt.
 
+## Empirischer Beleg für die Lösungsregel (05.11.2026)
+
+Im 18a-Benchmark trat `penecho_musterloesung` als bewusste Gegenprobe an — eine Variante, die die Regel „keine Lösung verraten“ durch eine vollständige Musterlösung ersetzt und kein Produktkandidat ist. Sie verrät in beiden Schülerständen die Lösung (2/2) und ist in beiden fachlich falsch (2/2): Im offenen Fall fehlt `17π/6`, im Fehlerfall ist die genannte `L₂`-Menge falsch. Technisch zählt sie trotzdem als `ok`, weil der Benchmark nur technische Gültigkeit prüft, nicht fachliche Richtigkeit.
+
+Damit ist die Regel „keine Lösung verraten“ empirisch gestützt: Die verratene Lösung war in beiden Fällen falsch, und die technische Prüfung erkannte keinen der beiden Fehler. Der Befund bleibt eine Fallserie — eine Aufgabe, ein Richter, ein synthetischer Schülerstand, keine Lernwirkung, ein Modell. Messplatz und Rohdaten im Repo [`keepitsimple`](keepitsimple.md): `docs/BENCHMARK-18A-2026-11-05.md`, `docs/BENCHMARK-18A-FEHLER-2026-11-05.md`, `arena/runs/benchmark-18a-2026-11-05.jsonl`, `arena/runs/benchmark-18a-fehler-2026-11-05.jsonl`.
+
 ## Probleme
 
 - Die Definition of Done ist offen; im Repo gibt es keinen Nachweis für drei Wechsel oder eine gemessene Latenz auf dem Gerät.
