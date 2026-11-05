@@ -1,4 +1,4 @@
-# reMarkable-Portfolio
+# reMarkable Atlas
 
 **Handschrift, Stift, Feedback — ohne den Lernfluss zu verlassen.**
 
@@ -67,8 +67,8 @@ Beide sind im Abschnitt [Referenzen](referenzen.md) beschrieben, mit klarer Herk
 
 ## Sichtbarkeit
 
-Fast alle Repos sind **privat**. Ein öffentliches Portfolio mit Links auf private Repos führt ins Leere (404). Vor einer Veröffentlichung muss entschieden werden:
+Dieses Repo ist **öffentlich**. Die verlinkten Projekt-Repos sind es größtenteils **nicht** — ihre Links führen für Außenstehende ins Leere (404). Öffentlich erreichbar sind derzeit nur [`inkpartner`](https://github.com/smlfg/inkpartner) und die beiden fremden Referenzen.
 
-1. Portfolio privat lassen und als interne Landkarte nutzen, **oder**
-2. ausgewählte Repos öffentlich schalten (mindestens `algebra-agent`, `penecho`, `keepitsimple`) **oder**
-3. das Portfolio öffentlich machen und nur die bereits öffentlichen Projekte verlinken (`inkpartner`).
+Das ist kein Fehler, sondern Absicht: Der Atlas ist so geschrieben, dass jede Seite ohne den Code lesbar ist. Wer nur den Überblick will, braucht die Repos nicht.
+
+Sollen weitere Projekte öffentlich werden, gilt die Reihenfolge: erst `penecho` (der Vertrag erklärt den Rest), dann `keepitsimple` (zeigt die Messmethode), dann `algebra-agent` (der eigentliche Tutor).
