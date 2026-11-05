@@ -43,18 +43,19 @@ Diese beiden Ordner liegen im Workspace, sind aber **nicht Samuels Arbeit**. Sie
 
 **Herkunft:** Rust-CLI von **Mikail Plotzky** (`DraftedDev`). Ein einzelner `Init`-Commit, kein Upstream-Remote. Die SymPy- und `--save-ocr`-Erweiterungen im lokalen Arbeitsbaum sind nicht committet.
 
-**Ein Satz:** Ein CLI, das handschriftliche Mathe-PDFs per OCR und lokalem Ollama-VLM prüft und ein annotiertes PDF mit Fehlerrahmen und Korrekturen erzeugt.
+**Ein Satz:** Ein CLI, das handschriftliche Mathe-PDFs — **nur PDF, kein PNG** — per OCR und lokalem Ollama-VLM prüft und ein annotiertes PDF mit Fehlerrahmen und Korrekturen erzeugt.
 
 **Kann:**
-- PDF-Seiten mit pdfium rendern und per PP-StructureV3 Textblöcke mit normalisierten Bounding-Boxes extrahieren.
+- PDF-Seiten mit pdfium rendern und per PP-StructureV3 Textblöcke mit normalisierten Bounding-Boxes extrahieren. Im Worktree mit Scale 2.0, Normalisierung gegen Bildmaße statt PDF-Punkte und korrekter `PdfRect`-Reihenfolge `(ymin, xmin, ymax, xmax)`; diese drei Fixes sind uncommittet.
 - Jede Seite als Bild an ein Ollama-VLM schicken und strukturierte Einträge mit Aufgabe, Fehler und Korrektur-LaTeX erhalten.
 - Ein annotiertes PDF schreiben: rote Fehlerrahmen, Leader-Linien, Randnotizen mit gerendertem LaTeX, grüne Rahmen für korrekte Aufgaben.
 - Zwischenstände speichern und laden sowie die OCR-Ausgabe als JSON exportieren.
+- `--save-ocr` exportiert nur die OCR-Items als JSON und überspringt VLM und PDF-Ausgabe; das ist ein bounded Probe-Pfad (ein Repo-PDF, ein Lauf), keine Live-Kette.
 
 **Kann nicht:**
-- Kein Rückschreiben aufs Tablet; die Kette endet in einer PDF-Datei.
-- Keine Tests im Repo, insbesondere keine Geometrie- oder Golden-Tests.
-- Kein stabiler Stand: HEAD und Arbeitsbaum weichen stark voneinander ab.
+- Kein Live-Tintenstrom und kein Rückschreiben aufs Tablet; die Kette endet in einer PDF-Datei.
+- Nur Tests für das CLI-Parsing (7), keine Geometrie- oder Golden-Tests.
+- Kein stabiler Stand: HEAD und Arbeitsbaum weichen stark voneinander ab; die drei Geometrie-Fixes existieren nur im Worktree.
 - Einmaliger CLI-Lauf, kein interaktiver Tutor.
 
 **Bild:**
@@ -65,9 +66,9 @@ Diese beiden Ordner liegen im Workspace, sind aber **nicht Samuels Arbeit**. Sie
 
 **Probleme:**
 - HEAD und Arbeitsbaum divergieren; der aktuelle Stand ist in der Workspace-Doku als `UNKNOWN` markiert.
-- Keine Tests, besonders kein Golden-Test für die Koordinaten-Transformation.
-- Das Modell entscheidet allein über die Korrektheit; im 12-Aufgaben-Lauf traf es 7/12 Fehlerstellen und erzeugte 5 falsche Negative.
+- Nur CLI-Parsing-Tests, kein Golden-Test für die Koordinaten-Transformation.
+- Ohne `--sympy` entscheidet das Modell allein über die Korrektheit; im 12-Aufgaben-Lauf traf es 7/12 Fehlerstellen und erzeugte 5 falsche Negative.
 - Die Extraktion schreibt temporäre Seitenbilder ins Arbeitsverzeichnis; parallele Läufe können sich überschreiben.
 - Anti-Cheater-Lizenz mit eigenen Nutzungs- und Attributionsbedingungen.
 
-**Fakten:** Rust 2024 (pdfium-render, oar-ocr, ollama-rs, clap), im Arbeitsbaum zusätzlich Python/SymPy · 802 Zeilen in `src/` (5 Dateien) · letzter Commit 2026-11-03 (`Init` von Mikail Plotzky) · 0 Tests
+**Fakten:** Rust 2024 (pdfium-render, oar-ocr, ollama-rs, clap), im Arbeitsbaum zusätzlich Python/SymPy · 571 Zeilen in HEAD, 971 im Worktree (6 Dateien, inkl. `verify.rs`) · letzter Commit 2026-11-03 (`Init` von Mikail Plotzky) · 7 CLI-Parsing-Tests, keine Geometrie-Tests

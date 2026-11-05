@@ -41,3 +41,9 @@ Das Projekt ist das Laborbuch zu einem Mathe-Tutor auf dem reMarkable. Es sammel
 - Der Live-Tutor ist nicht verifiziert; Seitenwechsel ohne neuen Stiftstrich werden nicht zuverlässig erkannt.
 - Hauptrepo, Laborpipeline und PDF-/TTS-Konfiguration sind nicht zu einem eindeutig getesteten Stand verbunden.
 - Der Arbeitsbaum hat 73 uncommittete Einträge; `live-mlops/` und `forschungssafe/` fehlen im letzten Commit. Ein Root-README fehlt ebenfalls.
+
+## Abgrenzung zu keepitsimple (05.11.2026)
+
+`mlops-gedanken` bleibt der Ground-Truth-Lab: 18 Seiten mit Metadaten und Wahrheitszeilen, 13 Testfunktionen, Benchmark-Reports. `keepitsimple` ist der Live-Messplatz: 11 Tutor-Strategien, 128 Live-Antworten, 2.281 Striche, 1.448.782 Events ohne Drop, 10-Seiten-Dataset und 441 Tests; der Writeback endet dort im Host-Dryrun. Die beiden Projekte werden nicht zu einem verschmolzen.
+
+Die 12 Übergabepakete liegen unter `docs/uebergabe/`. **P0** sind 01–05: Wiederanlauf, Log-Dauerhaftigkeit, Workload-Isolation, Run-Manifest und kanonische Metriken. **ML-Hebel** sind 06, 11 und 12: Goldset/Accuracy, Reader-Zeilensegmentierung und Tutor-Evaluation. **P1** sind 07–10: Replay-Cache, Datenqualitäts-Gates, Dataset-Registry, Health/Status.
