@@ -31,6 +31,10 @@
 
 Dry-Run auf dem Host: roter Rahmen um den erkannten Aufgabenbereich, roter Hinweiskasten links. Auf das Tablet wurde dabei nichts geschrieben.
 
+![Messübersicht 0711: Kennzahlen, Zeitverlauf, Benchmark-Ergebnisse](../media/keepitsimple-uebersicht.png)
+
+Die Messübersicht vom 05.11.2026: 128 Live-Antworten, 2.281 Striche, 1.448.782 Ereignisse ohne einen einzigen `SYN_DROPPED`, 441 Tests — darunter die Timeline, die für jede Stufe festhält, was tatsächlich lief. Der Punkt „Writeback-Dryrun" nennt ausdrücklich: kein Geräteschreibzugriff.
+
 ## Erklärung
 
 Das Projekt beobachtet, wie ein Mathe-Tutor auf echter Handschrift abschneidet, ohne dabei etwas zu verändern. Es liest den Stiftstrom mit, macht daraus ein Bild, lässt ein lokales Sprachmodell die Zeilen abtippen und zeigt mehrere mögliche Tutor-Antworten nebeneinander. Der Mensch wählt die hilfreichere — aus diesen Wahlen entsteht Messmaterial statt Bauchgefühl. Der Nutzen: Tutor-Qualität wird vergleichbar, bevor man sich auf eine endgültige Lösung festlegt. Es ist bewusst ein Messplatz, kein Lernprodukt.

@@ -21,6 +21,18 @@ Der ehrliche Stand: erfüllt sind **0 von 3** erprobten Sitzungen.
 
 ---
 
+## Wer ist was
+
+Drei Projekte werden leicht verwechselt, weil sie dasselbe Thema haben:
+
+| | Rolle | Kann auf das Gerät schreiben? |
+|---|---|---|
+| **penecho** | Der Vertrag. Sechs Punkte, die erfüllt sein müssen. | — (kein Code) |
+| **algebra-agent** | Der Kandidat. Die einzige Umsetzung, die den ganzen Kreis schließt. | **ja**, aber noch nicht über 3 Sitzungen erprobt |
+| **keepitsimple** | Der Messplatz. Liest mit, stellt elf Tutor-Strategien gegenüber, protokolliert deine Wahl. | **nein**, ausdrücklich nicht — Dry-Run auf dem Host |
+
+Das ist keine Rangfolge. `keepitsimple` ist das reifste Projekt (441 Tests, vollständiges Audit, echte Messreihen), aber es ist kein Tutor: Es misst, welche Antwort hilft. Und laut eigener Architekturentscheidung gibt es **keinen a-priori besten Tutor** — der Gewinner ist „was du immer wieder wählst".
+
 ## Der Kern
 
 | Projekt | Was es kann | Reifegrad | Detail |
