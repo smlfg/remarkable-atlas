@@ -2,9 +2,10 @@
 
 **Ein Satz:** Ein Mess- und Dokumentationsrepo, das MLOps-Prinzipien auf einen reMarkable-Mathe-Tutor anwendet: echte Handschriftseiten als Prüfkorpus, Benchmarks für OCR und Tutor, plus ein experimenteller Live-Adapter.
 
-**Repo:** https://github.com/smlfg/mlops-gedanken-umsetzung (privat)
+**Repo:** `https://github.com/smlfg/mlops-gedanken-umsetzung` (privat)
 **Reifegrad:** Werkzeug
 **Stack:** Python (Skripte, `unittest`) und Markdown · ~3.100 Zeilen im Arbeitsbaum · 13 Testfunktionen
+**Nutzen:** Zeigt, was Sicherheitsregeln kosten: 40 von 51 richtigen Zeilen wurden ohne Messung verworfen.
 
 ---
 

@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine statische Website mit fest eingebettetem Datensatz, die die Versuche, Fehlschläge und Entscheidungen beim Bau des Algebra-Tutors vom 17. bis 25.10.2026 belegt aufarbeitet.
 
-**Repo:** https://github.com/smlfg/algebra-graveyard (privat)
+**Repo:** `https://github.com/smlfg/algebra-graveyard` (privat)
 **Reifegrad:** Archiv
 **Stack:** HTML, CSS, Vanilla JavaScript ohne Build-Schritt; Python 3 für die Datensatz-Werkzeuge · ~3.900 Zeilen · 0 Tests
+**Nutzen:** Bewahrt teure Irrtümer vor dem Vergessen — der nächste Versuch startet nicht bei null.
 
 ---
 
@@ -25,7 +26,9 @@
 
 ## Bild
 
-kein Bild vorhanden.
+![Chronik-Seite mit Zeitleiste, Filtern und Ergebnis-Markern](../media/algebra-graveyard-chronik.png)
+
+Die Chronik im Browser: 188 Versuche als Zeitleiste, jeder mit Ergebnis (`worked`, `partial`, `failed`) und Konfidenz. Die Seite läuft ohne Server.
 
 ## Erklärung
 

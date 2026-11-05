@@ -1,35 +1,56 @@
 # reMarkable Atlas
 
+**Samuel Fleig** · [samuelfleig.com](https://samuelfleig.com)
+
 **Handschrift, Stift, Feedback — ohne den Lernfluss zu verlassen.**
 
-Dieses Repo bündelt 16 eigene Projekte rund um das reMarkable Paper Pro. Der rote Faden: Ein Blatt Papier soll rechnen können. Wer eine Aufgabe schreibt, bekommt einen kurzen Hinweis neben der eigenen Handschrift — kein Chatfenster, kein Handy, keine App dazwischen.
+Seit Oktober 2026 baue ich an einem Mathe-Tutor für das reMarkable Paper Pro. Der Anspruch: Ein Blatt Papier soll rechnen können. Wer eine Aufgabe schreibt, bekommt einen kurzen Hinweis neben der eigenen Handschrift — kein Chatfenster, kein Handy, keine App dazwischen.
 
-Der Weg dahin war nicht gerade. 188 dokumentierte Versuche, sieben Vorläufer-Codebasen, zwei Retrospektiven. Was hier steht, ist deshalb nicht die Erfolgsgeschichte, sondern der belastbare Teil davon: was funktioniert, was nicht, und woran man es erkennt.
+Der Weg dahin war nicht gerade. **188 dokumentierte Versuche, sieben Vorläufer-Codebasen, zwei Retrospektiven.** Was hier steht, ist deshalb nicht die Erfolgsgeschichte, sondern der belastbare Teil davon: was funktioniert, was nicht, und woran man es erkennt.
 
-![Ausschnitt: rote Unterstreichung unter der ersten falschen Zeile](media/algebra-agent-vergleich.png)
+![Rote Unterstreichung unter dem falschen Schritt 3x+2=15, daneben der Hinweis „Distributivgesetz: Jeden Summanden in der Klammer mit dem Faktor davor multiplizieren."](media/hero-hinweis.png)
 
 ---
 
-## Die Projekte
+## Wenn du nur zwei anschaust
 
-| # | Projekt | Was es kann | Reifegrad | Links |
-|---|---|---|---|---|
-| 1 | **algebra-agent** | Liest die Seite, findet den ersten falschen Rechenschritt, schreibt einen Hinweis als Tinte daneben. | Prototyp | [Detail](projekte/algebra-agent.md) · [Repo](https://github.com/smlfg/algebra-agent) |
-| 2 | **penecho** | Der Produktvertrag: sechs prüfbare Punkte, die erfüllt sein müssen, bevor von einem Tutor die Rede ist. | Dokument | [Detail](projekte/penecho.md) · [Repo](https://github.com/smlfg/penecho) |
-| 3 | **penecho-mac** | Menüleisten-App, die den Tutor ohne Terminal bedienbar macht. | Prototyp | [Detail](projekte/penecho-mac.md) · [Repo](https://github.com/smlfg/penecho-mac) |
-| 4 | **penecho-lens** | Fenster in die Maschine: zeigt Schritt für Schritt, was der Agent gerade tut. | Werkzeug | [Detail](projekte/penecho-lens.md) · [Repo](https://github.com/smlfg/penecho-lens) |
-| 5 | **inkpartner** | Denkt sich einen Lehrer mit Rotstift: Haken, Kreis, Fragezeichen — nach festen Regeln, nicht nach Modelllaune. | Prototyp | [Detail](projekte/inkpartner.md) · [Repo](https://github.com/smlfg/inkpartner) |
-| 6 | **underline** | Unterstreicht die falsche Zeile rot und hakt richtige grün ab, ohne die Handschrift anzutasten. | Prototyp | [Detail](projekte/underline.md) · [Repo](https://github.com/smlfg/remarkable-underline-mac) |
-| 7 | **pur** | Eine Seite, ein lokales Modell, ein angehängter Text. Ohne Cloud, ohne Konto. | Prototyp | [Detail](projekte/pur.md) · [Repo](https://github.com/smlfg/remarkable-pur-mac) |
-| 8 | **budget** | Schickt beim Zurückschreiben nur den neuen Byte-Anhang und zählt Requests, Bytes und Tokens. | Werkzeug | [Detail](projekte/budget.md) · [Repo](https://github.com/smlfg/remarkable-budget-mac) |
-| 9 | **keepitsimple** | Messplatz: liest den Stiftstrom live mit und stellt mehrere Tutor-Antworten zum Blindvergleich. | Werkzeug | [Detail](projekte/keepitsimple.md) · [Repo](https://github.com/smlfg/keepitsimple) |
-| 10 | **mlops-gedanken** | Laborbuch: 18 echte Seiten, Ground Truth, Benchmarks — und der Nachweis, welche Pipeline-Stufe wirklich trägt. | Werkzeug | [Detail](projekte/mlops-gedanken.md) · [Repo](https://github.com/smlfg/mlops-gedanken-umsetzung) |
-| 11 | **algebra-graveyard** | Chronik des Scheiterns: 188 Versuche, 13 Fehlermuster, 15 Lehren — jeder Satz mit Beleg. | Archiv | [Detail](projekte/algebra-graveyard.md) · [Repo](https://github.com/smlfg/algebra-graveyard) |
-| 12 | **remarkable-graveyard** | Dieselbe Idee kompakt: 25 Versuche, 69 Fehler, 34 Sackgassen in einer Offline-Seite. | Archiv | [Detail](projekte/remarkable-graveyard.md) · [Repo](https://github.com/smlfg/remarkable-graveyard) |
-| 13 | **skills-paper-pro** | Zehn beschriebene Arbeitsabläufe vom Verbinden bis zum Feedback-Schreiben. | Dokument | [Detail](projekte/skills-paper-pro.md) · [Repo](https://github.com/smlfg/skills-paper-pro) |
-| 14 | **rm-drill** | Mitschnitt einer Prüfungsvorbereitung: Frage wird vorgelesen, Antwort aufs Tablet gemalt, Agent liest zurück. | Archiv | [Detail](projekte/rm-drill.md) · [Repo](https://github.com/smlfg/rm-drill-mac) |
-| 15 | **remake-website** | Portfolio als nachgebauter Mac-Desktop im Browser: Sperrbildschirm, Dock, Fenster. | Prototyp | [Detail](projekte/remake-website.md) · [Repo](https://github.com/smlfg/remake-website) |
-| 16 | **CherryPicking** | Der Plan für danach: nur noch zusammenführen, was am Gerät belegt ist. | Plan | [Detail](projekte/cherrypicking.md) |
+- **[penecho](projekte/penecho.md)** — sechs prüfbare Punkte, die definieren, wann der Tutor fertig ist. Der ganze Rest ist die Antwort auf diese sechs Punkte.
+- **[algebra-agent](projekte/algebra-agent.md)** — die einzige Umsetzung, die den Kreis schließt: lesen, prüfen, zurückschreiben.
+
+Der ehrliche Stand: erfüllt sind **0 von 3** erprobten Sitzungen.
+
+---
+
+## Der Kern
+
+| Projekt | Was es kann | Reifegrad | |
+|---|---|---|---|
+| **algebra-agent** | Liest die Seite, findet den ersten falschen Rechenschritt, schreibt einen Hinweis als Tinte daneben. | Prototyp | [Detail](projekte/algebra-agent.md) |
+| **penecho** | Der Produktvertrag: sechs prüfbare Punkte, die erfüllt sein müssen, bevor von einem Tutor die Rede ist. | Dokument | [Detail](projekte/penecho.md) |
+| **penecho-mac** | Menüleisten-App, die den Tutor ohne Terminal bedienbar macht. | Prototyp | [Detail](projekte/penecho-mac.md) |
+| **penecho-lens** | Fenster in die Maschine: zeigt Schritt für Schritt, was der Agent gerade tut. | Werkzeug | [Detail](projekte/penecho-lens.md) |
+
+## Zulieferer und Messgeräte
+
+| Projekt | Was es kann | Reifegrad | |
+|---|---|---|---|
+| **inkpartner** | Denkt sich einen Lehrer mit Rotstift: Haken, Kreis, Fragezeichen — nach festen Regeln, nicht nach Modelllaune. | Prototyp | [Detail](projekte/inkpartner.md) |
+| **underline** | Unterstreicht die falsche Zeile rot und hakt richtige grün ab, ohne die Handschrift anzutasten. | Prototyp | [Detail](projekte/underline.md) |
+| **pur** | Eine Seite, ein lokales Modell, ein angehängter Text. Ohne Cloud, ohne Konto. | Prototyp | [Detail](projekte/pur.md) |
+| **budget** | Schickt beim Zurückschreiben nur den neuen Byte-Anhang und zählt Requests, Bytes und Tokens. | Werkzeug | [Detail](projekte/budget.md) |
+| **keepitsimple** | Messplatz: liest den Stiftstrom live mit und stellt mehrere Tutor-Antworten zum Blindvergleich. | Werkzeug | [Detail](projekte/keepitsimple.md) |
+| **mlops-gedanken** | 18 echte Seiten, Ground Truth, Benchmarks — und der Nachweis, welche Pipeline-Stufe wirklich trägt. | Werkzeug | [Detail](projekte/mlops-gedanken.md) |
+
+## Rückblick und Umfeld
+
+| Projekt | Was es kann | Reifegrad | |
+|---|---|---|---|
+| **algebra-graveyard** | Chronik des Scheiterns: 188 Versuche, 13 Fehlermuster, 15 Lehren — jeder Satz mit Beleg. | Archiv | [Detail](projekte/algebra-graveyard.md) |
+| **remarkable-graveyard** | Dieselbe Idee kompakt: 25 Versuche, 69 Fehler, 34 Sackgassen in einer Offline-Seite. | Archiv | [Detail](projekte/remarkable-graveyard.md) |
+| **skills-paper-pro** | Zehn beschriebene Arbeitsabläufe vom Verbinden bis zum Feedback-Schreiben. | Dokument | [Detail](projekte/skills-paper-pro.md) |
+| **rm-drill** | Mitschnitt einer Prüfungsvorbereitung: Frage vorgelesen, Antwort aufs Tablet gemalt, Agent liest zurück. | Archiv | [Detail](projekte/rm-drill.md) |
+| **remake-website** | Portfolio als nachgebauter Mac-Desktop im Browser: Sperrbildschirm, Dock, Fenster. | Prototyp | [Detail](projekte/remake-website.md) |
+| **CherryPicking** | Der Plan für danach: nur noch zusammenführen, was am Gerät belegt ist. | Plan | [Detail](projekte/cherrypicking.md) |
 
 ---
 
@@ -46,29 +67,29 @@ Die Skala ist absichtlich streng. „Fertig" heißt hier: auf dem Gerät belegt,
 | **Archiv** | Abgeschlossen. Rückblick, keine Weiterentwicklung. |
 | **Plan** | Noch kein Code. |
 
----
-
 ## Der Kern in einem Absatz
 
-`algebra-agent` ist das einzige Projekt, das den ganzen Kreis schließt: Seite lesen, Schritt prüfen, Tinte zurückschreiben. Alles andere ist entweder Zulieferer (`pur`, `underline`, `budget`, `inkpartner`), Messgerät (`keepitsimple`, `mlops-gedanken`), Bedienoberfläche (`penecho-mac`, `penecho-lens`), Vertrag (`penecho`) oder Rückblick (`algebra-graveyard`, `remarkable-graveyard`). Der Tutor selbst steht bei **0 von 3** erprobten Sitzungen — das ist der ehrliche Stand.
+`algebra-agent` ist das einzige Projekt, das den ganzen Kreis schließt: Seite lesen, Schritt prüfen, Tinte zurückschreiben. Die übrigen 15 sind Zulieferer (`pur`, `underline`, `budget`, `inkpartner`), Messgeräte (`keepitsimple`, `mlops-gedanken`), Bedienoberflächen (`penecho-mac`, `penecho-lens`), Verträge und Nachschlagewerke (`penecho`, `skills-paper-pro`), Rückblicke (`algebra-graveyard`, `remarkable-graveyard`, `rm-drill`) oder Drumherum (`remake-website`, `CherryPicking`).
 
 ---
 
 ## Fremde Projekte
 
-Zwei Ordner im Workspace sind **nicht** eigene Arbeit und stehen hier nur als Referenz:
+Zwei Ordner im Workspace sind **nicht** meine Arbeit und stehen hier nur als Referenz:
 
 - [`smart_remarkable`](referenzen.md#smart_remarkable) — Rust-Agent von Yang Wu, Fork von `awwaiid/ghostwriter`.
 - [`math-vision`](referenzen.md#math-vision) — Rust-CLI von Mikail Plotzky.
 
 Beide sind im Abschnitt [Referenzen](referenzen.md) beschrieben, mit klarer Herkunftsangabe.
 
----
-
 ## Sichtbarkeit
 
-Dieses Repo ist **öffentlich**. Die verlinkten Projekt-Repos sind es größtenteils **nicht** — ihre Links führen für Außenstehende ins Leere (404). Öffentlich erreichbar sind derzeit nur [`inkpartner`](https://github.com/smlfg/inkpartner) und die beiden fremden Referenzen.
+Dieses Repo ist **öffentlich**, die Projekt-Repos sind **privat**. Die Seiten sind deshalb so geschrieben, dass sie ohne den Code lesbar sind; die Repo-Pfade stehen als Text in den Kopfzeilen.
 
-Das ist kein Fehler, sondern Absicht: Der Atlas ist so geschrieben, dass jede Seite ohne den Code lesbar ist. Wer nur den Überblick will, braucht die Repos nicht.
+Öffentlich erreichbar ist derzeit nur [`inkpartner`](https://github.com/smlfg/inkpartner) — ein Forschungsprototyp, der den Rotstift-Ansatz zeigt, aber nicht auf dem Gerät belegt ist.
 
-Sollen weitere Projekte öffentlich werden, gilt die Reihenfolge: erst `penecho` (der Vertrag erklärt den Rest), dann `keepitsimple` (zeigt die Messmethode), dann `algebra-agent` (der eigentliche Tutor).
+## Kontakt
+
+Samuel Fleig · [samuelfleig.com](https://samuelfleig.com)
+
+Wenn dich ein Projekt interessiert und du den Code sehen willst: schreib mir, ich gebe die Repos frei.

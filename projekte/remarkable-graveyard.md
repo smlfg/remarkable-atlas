@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine belegbasierte Retrospektive des reMarkable-Algebra-Agenten mit 25 Versuchen, 69 klassifizierten Fehlern, 34 Sackgassen und 75 Belegen in einer offline lesbaren Seite.
 
-**Repo:** https://github.com/smlfg/remarkable-graveyard (privat)
+**Repo:** `https://github.com/smlfg/remarkable-graveyard` (privat)
 **Reifegrad:** Archiv
 **Stack:** Python 3 (Generator und Prüfwerkzeuge), HTML/CSS/JS, JSON · ~570 Zeilen Python
+**Nutzen:** Dieselbe Lehre in 300 KB, offline lesbar, ohne Server.
 
 ---
 
@@ -25,7 +26,9 @@
 
 ## Bild
 
-kein Bild vorhanden.
+![Startseite der Retrospektive mit Kennzahlen und der Gegenüberstellung What works / What does not](../media/remarkable-graveyard-chronik.png)
+
+Die Startseite: 69 Fehler, 34 Sackgassen, 25 Versuche, 75 Belege — und daneben die Gegenüberstellung, was funktioniert und was nicht.
 
 ## Erklärung
 

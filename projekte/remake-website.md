@@ -2,9 +2,10 @@
 
 **Ein Satz:** Ein im Browser nachgebautes macOS-Desktop-Portfolio mit Sperrbildschirm, Menüleiste, Dock und sieben App-Fenstern, ergänzt um eine zweite statische Website-Variante.
 
-**Repo:** https://github.com/smlfg/remake-website (privat)
+**Repo:** `https://github.com/smlfg/remake-website` (privat)
 **Reifegrad:** Prototyp
 **Stack:** TypeScript/React 19, Vite, Tailwind CSS · ~3.700 Zeilen in `src/` · 0 Tests
+**Nutzen:** Ein Portfolio, das man bedient statt scrollt.
 
 ---
 

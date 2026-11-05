@@ -25,7 +25,7 @@ Diese beiden Ordner liegen im Workspace, sind aber **nicht Samuels Arbeit**. Sie
 
 **Bild:**
 
-![Foto eines reMarkable mit lassiertem Text und injiziertem LLM-Button](media/smart-remarkable-button.jpeg)
+![Foto eines reMarkable mit selektiertem Text und injiziertem LLM-Button](media/smart-remarkable-button.jpeg)
 
 **Warum es hier liegt:** Als Anschauung, wie Tablet-Eingabe, LLM und Stiftausgabe zusammenspielen — und als Vergleichsmaßstab für die eigene Lösung.
 
@@ -70,4 +70,4 @@ Diese beiden Ordner liegen im Workspace, sind aber **nicht Samuels Arbeit**. Sie
 - Die Extraktion schreibt temporäre Seitenbilder ins Arbeitsverzeichnis; parallele Läufe können sich überschreiben.
 - Anti-Cheater-Lizenz mit eigenen Nutzungs- und Attributionsbedingungen.
 
-**Fakten:** Rust 2024 (pdfium-render, oar-ocr, ollama-rs, clap), im Arbeitsbaum zusätzlich Python/SymPy · 571 Zeilen im HEAD · letzter Commit 2026-11-03 (`Init` von Mikail Plotzky) · 0 Tests
+**Fakten:** Rust 2024 (pdfium-render, oar-ocr, ollama-rs, clap), im Arbeitsbaum zusätzlich Python/SymPy · 802 Zeilen in `src/` (5 Dateien) · letzter Commit 2026-11-03 (`Init` von Mikail Plotzky) · 0 Tests

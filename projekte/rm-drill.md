@@ -2,9 +2,10 @@
 
 **Ein Satz:** Ein archivierter Claude-Code-Sitzungsmitschnitt, der zeigt, wie der Skill `rm-drill` eine Prüfungsvorbereitung am Paper Pro als Vorlesen-und-Malen-Schleife führt — kein Anwendungscode.
 
-**Repo:** https://github.com/smlfg/rm-drill-mac (privat, Ordner heißt lokal `claude/`)
+**Repo:** `https://github.com/smlfg/rm-drill-mac` (privat, Ordner heißt lokal `claude/`)
 **Reifegrad:** Archiv
 **Stack:** JSONL-Mitschnitt, Markdown, PNG · 725 JSONL-Zeilen (doppelt, 8,8 MB)
+**Nutzen:** Belegt, dass eine Sprach-plus-Stift-Schleife in 25 Minuten vier Runden schafft — ohne Tastatur.
 
 ---
 

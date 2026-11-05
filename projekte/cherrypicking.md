@@ -1,10 +1,11 @@
 # CherryPicking
 
-**Ein Satz:** Ein noch leeres Konsolidierungs-Repo: eine 100-Punkte-Roadmap und zwölf Notion-Seiten, aus denen ein einziger, am Gerät geprüfter Mathe-Tutor entstehen soll.
+**Ein Satz:** Ein Konsolidierungs-Repo ohne Code: eine 100-Punkte-Roadmap und zwölf Notion-Seiten, aus denen ein einziger, am Gerät geprüfter Mathe-Tutor entstehen soll.
 
-**Repo:** kein Remote — lokales Repo ohne Commit
+**Repo:** `https://github.com/smlfg/CherryPicking` (privat)
 **Reifegrad:** Plan
 **Stack:** Markdown (Roadmap und Notion-Exporte) · ~980 Zeilen · kein Code
+**Nutzen:** Verhindert den neunten Neuanfang: nur noch zusammenführen, was belegt ist.
 
 ---
 
@@ -17,13 +18,15 @@
 ## Kann nicht
 
 - Nichts ausführen: Es gibt keinen Quellcode, keinen Build und keine Tests.
-- Keinen Commit und kein Remote vorweisen; der Branch `master` hat keinen HEAD.
+- Einmaliger Plan, kein Werkzeug: nichts davon läuft, ohne dass es jemand in Code übersetzt.
 - Keines der 16 Arbeitspakete ist begonnen (0/16 Checkboxen).
 - Keine der sieben Vorläufer-Codebasen ist integriert; die Roadmap verweist nur auf externe Pfade.
 
-## Bild
+## Beleg
 
-kein Bild vorhanden.
+Auszug aus `ROADMAP.md`:
+
+> Über **188 dokumentierte Versuche** und **7 separate Repositories** stand die eigentliche Definition of Done am Ende bei **0 von 3 echten Lernsessions (0/14 Checkboxen)** — obwohl jedes Einzelteil für sich bereits bewiesen war.
 
 ## Erklärung
 
@@ -31,7 +34,6 @@ CherryPicking ist kein Programm, sondern ein Plan. Nach 188 dokumentierten Versu
 
 ## Probleme
 
-- Null Commits und kein Remote: der gesamte Inhalt ist untracked und nicht versioniert.
-- 0 von 16 Arbeitspaketen begonnen; keine Tests, keine Fixtures.
-- Die Roadmap verweist auf 20 externe bzw. absolute Pfade; der Code der Vorläufer liegt nicht im Repo.
+- Die Roadmap nennt absolute Pfade (`/Users/samuelfleig/Projects/01_WORK/CherryPicking`), die seit dem Umzug ins Workspace-Verzeichnis nicht mehr stimmen.
+- 0 von 16 Arbeitspaketen begonnen; es gibt keine Tests und keine Fixtures, an denen sich der Plan prüfen ließe.
 - Ein belegter End-to-End-Lauf fehlt; die Roadmap ist noch nicht in ausführbare Arbeit übersetzt.

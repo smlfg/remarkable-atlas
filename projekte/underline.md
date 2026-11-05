@@ -2,9 +2,10 @@
 
 **Ein Satz:** Ein Agent, der auf einer Paper-Pro-Seite die falsche Zeile rot unterstreicht und richtige Zeilen grün abhakt, ohne die Tinte des Schülers zu verändern.
 
-**Repo:** https://github.com/smlfg/remarkable-underline-mac (privat)
+**Repo:** `https://github.com/smlfg/remarkable-underline-mac` (privat)
 **Reifegrad:** Prototyp
 **Stack:** Python 3, rmscene, Pillow, Ollama · ~2.450 Zeilen Produktivcode · 54 Tests
+**Nutzen:** Die kleinste sinnvolle Rückmeldung: eine Linie, ein Haken, ohne die Arbeit zu überschreiben.
 
 ---
 
@@ -23,9 +24,17 @@
 - Die grüne Variante ist getestet, aber nie am Gerät gesehen.
 - Kennt keine Aufgabensammlung; der Nachweis an fünf echten Vorlesungsaufgaben steht aus.
 
-## Bild
+## Beleg
 
-kein Bild vorhanden.
+Die Befehle, die tatsächlich existieren — Stand heute:
+
+```
+page         die Seite ansehen
+underline    Text unterstreichen
+ununderline  eine Unterstreichung wieder zuruecknehmen
+device       das Tablet (nur gelesen)
+push         Seite zurueck auf das Tablet
+```
 
 ## Erklärung
 

@@ -2,9 +2,10 @@
 
 **Ein Satz:** Der Python-Kern des Algebra-Tutors — liest Handschrift von einer Paper-Pro-Seite, bestimmt den ersten falschen Rechenschritt und schreibt einen kurzen Hinweis als Tinte auf dieselbe Seite zurück.
 
-**Repo:** https://github.com/smlfg/algebra-agent (privat)
+**Repo:** `https://github.com/smlfg/algebra-agent` (privat)
 **Reifegrad:** Prototyp
 **Stack:** Python 3 · ~36.700 Zeilen · 967 Testmethoden
+**Nutzen:** Ersetzt die Rückfrage bei einem Menschen: ein Hinweis in Sekunden, direkt auf der Seite, ohne den Lernfluss zu unterbrechen.
 
 ---
 
@@ -13,7 +14,7 @@
 - Eine `.rm`-Seite einlesen und ihre Originalblöcke byte-gleich erhalten; neue Striche landen in einer eigenen Ebene „PenEcho Agent".
 - Handschrift über austauschbare Vision-Backends lesen (Gemini, MiniMax, Ollama, Fake). Zwei unabhängige Lesungen müssen übereinstimmen — sonst gilt die Zeile als unsicher und wird nie grün.
 - Schritte deterministisch prüfen: exakte Bruch- und Polynomprüfung bis Grad 2, die benannte Regeln erkennt (Distributivgesetz, Vorzeichenfehler), dazu SymPy-Prüfer für einzelne Themengebiete.
-- Drei Rückschreibwege: rote Linie unter der falschen Zeile, rote Linie plus grüner Haken plus Text, oder volle Markierung. Mit Abstand zur Schülertinte und ohne Schreiben, wenn kein Platz frei ist.
+- Drei Rückschreibwege: rote Linie unter der falschen Zeile, rote Linie plus grüner Haken plus Text, oder volle Markierung. Mit Abstand zur Schülertinte; bei Platzmangel wird bewusst nichts geschrieben — in dichten Diagrammen greift diese Regel aber noch nicht zuverlässig (siehe Probleme).
 - Einen Notebook-Loop mit Auslöse-Erkennung, Agentenprofilen, Modellkette und Tageskontingent betreiben.
 
 ## Kann nicht

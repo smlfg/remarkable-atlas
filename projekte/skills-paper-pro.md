@@ -2,9 +2,10 @@
 
 **Ein Satz:** Zehn deutsche Agenten-Skills, die typische Paper-Pro-Abläufe vom Verbinden über Handschriftlesen bis zum Feedback-Schreiben beschreiben — Dokumentation, kein Programm.
 
-**Repo:** https://github.com/smlfg/skills-paper-pro (privat)
+**Repo:** `https://github.com/smlfg/skills-paper-pro` (privat)
 **Reifegrad:** Dokument
 **Stack:** Markdown mit YAML-Frontmatter · 934 Zeilen · keine automatisierten Tests
+**Nutzen:** Eine Landkarte für zehn Abläufe: welcher Befehl wofür, und was davon belegt ist.
 
 ---
 

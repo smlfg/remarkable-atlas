@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine einzelne `.rm`-Seite wird lokal von einem Vision-Modell gelesen, dessen Antwort als getippter Textblock an dieselbe Seite angehängt wird — ohne Cloud und ohne App auf dem Tablet.
 
-**Repo:** https://github.com/smlfg/remarkable-pur-mac (privat)
+**Repo:** `https://github.com/smlfg/remarkable-pur-mac` (privat)
 **Reifegrad:** Prototyp
 **Stack:** Python 3, rmscene, Pillow, Ollama · ~620 Zeilen Produktivcode · 31 Tests
+**Nutzen:** Prüft eine Seite ohne Cloud, ohne Konto, ohne dass die Handschrift verloren geht.
 
 ---
 

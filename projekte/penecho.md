@@ -2,9 +2,10 @@
 
 **Ein Satz:** Der Produktvertrag für einen bidirektionalen E-Ink-Algebra-Tutor — er legt fest, was auf dem Paper Pro passieren muss, bevor von einer funktionierenden Lern-Session die Rede ist.
 
-**Repo:** https://github.com/smlfg/penecho (privat)
+**Repo:** `https://github.com/smlfg/penecho` (privat)
 **Reifegrad:** Dokument
 **Stack:** Markdown · ~1.000 Zeilen · kein ausführbarer Code
+**Nutzen:** Macht Fortschritt prüfbar. Ohne diese sechs Checkboxen wäre unklar, ob der Tutor funktioniert oder nur läuft.
 
 ---
 
@@ -23,9 +24,16 @@
 - Nahtloses Zurückschreiben ohne Neustart von `xochitl` ist nicht gebaut — und der CLI-Vertrag führt es unter „Was NICHT gebaut wird", während das README es als Produktstufe fordert.
 - Kein Notion-Sync, keine Accounts, keine Einstellungsseiten, keine Installation auf dem Tablet — alles bewusst ausgeschlossen.
 
-## Bild
+## Beleg
 
-kein Bild vorhanden.
+Auszug aus der Definition of Done — alle Punkte sind im Repo noch offen:
+
+> - [ ] Ich schreibe `3(x+2)=15` und darunter den falschen Schritt `3x+2=15`.
+> - [ ] Ich löse den Agenten **bewusst** aus. Er schreibt nicht ungefragt dazwischen.
+> - [ ] Der Agent erkennt den Fehler (Distributivgesetz) und schreibt einen **kurzen Hinweis** als Stiftstriche auf dieselbe Seite.
+> - [ ] Meine Schrift bleibt stehen. Nichts von mir wird überschrieben oder gelöscht.
+> - [ ] Mindestens **3 Wechsel** Mensch → Agent → Mensch auf derselben Seite funktionieren.
+> - [ ] Gemessen: Zeit vom Auslösen bis zum ersten Agentenstrich.
 
 ## Erklärung
 

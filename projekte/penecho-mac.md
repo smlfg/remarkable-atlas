@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine macOS-Menüleisten-App, die als reines Frontend die Python-CLIs des PenEcho-Vertrags startet, ihren JSON-Ausstoß anzeigt und damit den Tutor ohne Terminal bedienbar macht.
 
-**Repo:** https://github.com/smlfg/penecho-mac (privat)
+**Repo:** `https://github.com/smlfg/penecho-mac` (privat)
 **Reifegrad:** Prototyp
 **Stack:** Swift 6 / SwiftUI, macOS 14+ · ~3.750 Zeilen · 43 Tests in 11 Suites
+**Nutzen:** Nimmt Terminal und JSON aus dem Alltag: Tablet wählen, starten, Verlauf lesen.
 
 ---
 
@@ -22,10 +23,6 @@
 - Schreibt nicht selbst auf das Tablet und speichert keinen API-Key — das übernehmen die CLIs.
 - Ist nicht notarisiert; `make-app.sh` baut ein lokales Bundle mit Ad-hoc-Signatur.
 - Gilt laut eigener Definition erst nach drei Sessions mit je drei Turns als „erprobt"; im Repo liegen keine solchen Session-Logs.
-
-## Bild
-
-kein Bild vorhanden.
 
 ## Erklärung
 

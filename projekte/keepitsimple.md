@@ -2,9 +2,10 @@
 
 **Ein Satz:** Ein rein lokales Beobachtungs- und Messwerkzeug, das den Stiftstrom des reMarkable mitschreibt, Handschrift per lokalem Modell in Zeilen übersetzt und mehrere Tutor-Antworten zum Vergleich anbietet.
 
-**Repo:** https://github.com/smlfg/keepitsimple (privat)
+**Repo:** `https://github.com/smlfg/keepitsimple` (privat)
 **Reifegrad:** Werkzeug
 **Stack:** Python 3, Pillow, lokales Ollama, SymPy · ~15.900 Zeilen · 441 Testmethoden
+**Nutzen:** Ersetzt Bauchgefühl durch einen Blindvergleich: elf Tutor-Strategien, eine menschliche Wahl, ein Messwert.
 
 ---
 
@@ -12,7 +13,7 @@
 
 - Den rohen Stiftstrom über SSH von `/dev/input/event2` lesen, daraus Striche bauen und laufend ein PNG zeichnen. Der Audit zählte 456.790 Events, 682 Striche und 0 `SYN_DROPPED`.
 - In einer Live-Konsole links die Tinte und rechts die gelesene Zeilenliste zeigen. Gefragt wird erst nach einer Schreibpause, gesteuert von einer reinen Zeitfunktion.
-- Elf Tutor-Strategien als austauschbare Module laden (`baseline`, `socratic`, `nextstep`, `errorlocal`, `check`, `concept`, `analogy`, zwei PenEcho-Varianten), anonym mischen, durch einen blinden Richter bewerten und die menschliche Wahl als JSONL protokollieren.
+- Elf Tutor-Strategien als austauschbare Module laden — u. a. `baseline`, `socratic`, `nextstep`, `errorlocal`, `check`, `concept`, `analogy`, zwei PenEcho-Varianten), anonym mischen, durch einen blinden Richter bewerten und die menschliche Wahl als JSONL protokollieren.
 - Vor jedem Tutor-Prompt einen SymPy-Befund über die Zeilen legen, ohne Lösungswerte zu verraten.
 - Messreihen fahren: Reader-Benchmark, Pipeline-Benchmark, Taskscore gegen Referenzhinweise, Varianz bei Temperatur 0, Live-Log, Offline-Replay, Report und ein begrenzter MLOps-Lauf. Die gewählte Antwort lässt sich lokal vorlesen.
 

@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine Transportschicht, die beim Zurückschreiben nur den neuen Byte-Tail aufs Tablet schickt und einen Turn in Requests, Bytes und Bildtokens misst.
 
-**Repo:** https://github.com/smlfg/remarkable-budget-mac (privat)
+**Repo:** `https://github.com/smlfg/remarkable-budget-mac` (privat)
 **Reifegrad:** Werkzeug
 **Stack:** Python 3 (nur Standardbibliothek) und POSIX-Sh · ~800 Zeilen Produktivcode · 41 Tests
+**Nutzen:** Macht die zwei echten Engpässe sichtbar: Tageskontingent und Übertragungszeit.
 
 ---
 
@@ -23,9 +24,16 @@
 - Ist in `pur` oder `algebra-agent` nicht eingebaut; im Workspace importiert niemand `budget`.
 - Versteht weder `.rm`-Inhalt noch Handschrift; es ist Transport- und Kostenmessung, keine Erkennung.
 
-## Bild
+## Beleg
 
-kein Bild vorhanden.
+`python3 -m budget quota --limit 20 --requests-per-turn 3` — echte Ausgabe:
+
+```
+modell     gemini-flash-lite-latest
+limit      20 Requests/Tag
+pro Turn   3 Requests
+turns      6 (bei 3 h und 20 min Abstand)
+```
 
 ## Erklärung
 

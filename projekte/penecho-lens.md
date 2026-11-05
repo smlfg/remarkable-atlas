@@ -2,9 +2,10 @@
 
 **Ein Satz:** Eine macOS-Beobachter-App, die den PenEcho-Ablauf sichtbar macht: Sie liest entweder das Protokoll einer laufenden Session oder startet den Trace der Python-Pipeline auf einer lokalen `.rm`-Seite und zeigt jeden Schritt.
 
-**Repo:** https://github.com/smlfg/penecho-lens (privat)
+**Repo:** `https://github.com/smlfg/penecho-lens` (privat)
 **Reifegrad:** Werkzeug
 **Stack:** Swift 6 / SwiftUI, macOS 14+ · ~2.600 Zeilen · 18 Tests in 5 Suites
+**Nutzen:** Spart Fehlersuche: man sieht sofort, ob Lesen, Urteilen oder Schreiben kaputt ist.
 
 ---
 
@@ -22,10 +23,6 @@
 - Läuft nicht allein: Ohne `algebra-agent`-Checkout mit `trace`-CLI und passender Python-Umgebung passiert nichts.
 - Hat kein README und ist nicht im CLI-Vertrag verankert; die Schnittstelle ist nur über den Trace-Code definiert.
 - Kann die Sichtbarkeit der Tinte nicht selbst bestätigen; sie gibt weiter, was im Log steht, und markiert Unbestätigtes als solches.
-
-## Bild
-
-kein Bild vorhanden.
 
 ## Erklärung
 
