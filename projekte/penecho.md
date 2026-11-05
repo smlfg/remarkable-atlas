@@ -6,6 +6,7 @@
 **Reifegrad:** Dokument
 **Stack:** Markdown · ~1.000 Zeilen · kein ausführbarer Code
 **Nutzen:** Macht Fortschritt prüfbar. Ohne diese sechs Checkboxen wäre unklar, ob der Tutor funktioniert oder nur läuft.
+**Belegt:** Der Vertrag selbst: 13 Abschnitte CLI-Schnittstelle und sechs DoD-Punkte, jeder einzeln prüfbar. Über die Umsetzung sagt das nichts.
 
 ---
 

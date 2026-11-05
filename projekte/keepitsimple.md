@@ -6,6 +6,7 @@
 **Reifegrad:** Werkzeug
 **Stack:** Python 3, Pillow, lokales Ollama, SymPy · ~15.900 Zeilen · 441 Testmethoden
 **Nutzen:** Ersetzt Bauchgefühl durch einen Blindvergleich: elf Tutor-Strategien, eine menschliche Wahl, ein Messwert.
+**Belegt:** 441 Testmethoden; eine Aufzeichnung mit 456.790 Stift-Events lief ohne einen einzigen `SYN_DROPPED`.
 
 ---
 

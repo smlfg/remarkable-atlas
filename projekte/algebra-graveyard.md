@@ -6,6 +6,7 @@
 **Reifegrad:** Archiv
 **Stack:** HTML, CSS, Vanilla JavaScript ohne Build-Schritt; Python 3 für die Datensatz-Werkzeuge · ~3.900 Zeilen · 0 Tests
 **Nutzen:** Bewahrt teure Irrtümer vor dem Vergessen — der nächste Versuch startet nicht bei null.
+**Belegt:** 482 Belege, jeder mit Fundstelle und Zitat; `check_evidence.py` prüft sie gegen die Primärquelle.
 
 ---
 

@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** TypeScript/React 19, Vite, Tailwind CSS · ~3.700 Zeilen in `src/` · 0 Tests
 **Nutzen:** Ein Portfolio, das man bedient statt scrollt.
+**Belegt:** Die statische Fassung ist gebaut und mit 20 QA-Screenshots belegt.
 
 ---
 

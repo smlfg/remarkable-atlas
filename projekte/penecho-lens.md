@@ -6,6 +6,7 @@
 **Reifegrad:** Werkzeug
 **Stack:** Swift 6 / SwiftUI, macOS 14+ · ~2.600 Zeilen · 18 Tests in 5 Suites
 **Nutzen:** Spart Fehlersuche: man sieht sofort, ob Lesen, Urteilen oder Schreiben kaputt ist.
+**Belegt:** 18 Tests in 5 Suites prüfen Protokoll-Dekodierung, Puffer und Argumente.
 
 ---
 

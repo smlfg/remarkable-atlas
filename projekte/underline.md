@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** Python 3, rmscene, Pillow, Ollama · ~2.450 Zeilen Produktivcode · 54 Tests
 **Nutzen:** Die kleinste sinnvolle Rückmeldung: eine Linie, ein Haken, ohne die Arbeit zu überschreiben.
+**Belegt:** 54 Tests laufen mit `--model fake` offline und deterministisch.
 
 ---
 

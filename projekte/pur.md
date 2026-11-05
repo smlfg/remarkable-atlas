@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** Python 3, rmscene, Pillow, Ollama · ~620 Zeilen Produktivcode · 31 Tests
 **Nutzen:** Prüft eine Seite ohne Cloud, ohne Konto, ohne dass die Handschrift verloren geht.
+**Belegt:** 31 Tests ohne Modell und ohne Netz; die Originalbytes bleiben nachweislich vorn.
 
 ---
 

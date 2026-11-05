@@ -6,6 +6,7 @@
 **Reifegrad:** Plan
 **Stack:** Markdown (Roadmap und Notion-Exporte) · ~980 Zeilen · kein Code
 **Nutzen:** Verhindert den neunten Neuanfang: nur noch zusammenführen, was belegt ist.
+**Belegt:** Die Roadmap ist vollständig: 16 Arbeitspakete mit Akzeptanzkriterien. Mehr ist nicht behauptet.
 
 ---
 

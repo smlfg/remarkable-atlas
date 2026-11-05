@@ -6,6 +6,7 @@
 **Reifegrad:** Werkzeug
 **Stack:** Python (Skripte, `unittest`) und Markdown · ~3.100 Zeilen im Arbeitsbaum · 13 Testfunktionen
 **Nutzen:** Zeigt, was Sicherheitsregeln kosten: 40 von 51 richtigen Zeilen wurden ohne Messung verworfen.
+**Belegt:** 18 Seiten mit Ground Truth und ein Benchmark-Report: 51 von 56 Zeilen roh richtig, 11 von 56 nach den Guardrails.
 
 ---
 

@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** Swift 6 / SwiftUI, macOS 14+ · ~3.750 Zeilen · 43 Tests in 11 Suites
 **Nutzen:** Nimmt Terminal und JSON aus dem Alltag: Tablet wählen, starten, Verlauf lesen.
+**Belegt:** 43 Tests in 11 Suites laufen ohne Tablet gegen ein nachgebautes CLI-Repo.
 
 ---
 

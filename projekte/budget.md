@@ -6,6 +6,7 @@
 **Reifegrad:** Werkzeug
 **Stack:** Python 3 (nur Standardbibliothek) und POSIX-Sh · ~800 Zeilen Produktivcode · 41 Tests
 **Nutzen:** Macht die zwei echten Engpässe sichtbar: Tageskontingent und Übertragungszeit.
+**Belegt:** 41 Tests ohne Gerät, Netz oder Modell; die Invariante `out = base + Tail` ist byteweise geprüft.
 
 ---
 

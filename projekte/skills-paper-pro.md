@@ -6,6 +6,7 @@
 **Reifegrad:** Dokument
 **Stack:** Markdown mit YAML-Frontmatter · 934 Zeilen · keine automatisierten Tests
 **Nutzen:** Eine Landkarte für zehn Abläufe: welcher Befehl wofür, und was davon belegt ist.
+**Belegt:** Ein Gerätetest vom 22.10.: Seite per SSH geholt, SHA-256 gleich, Text-Writeback byte-identisch, 484 Striche unverändert.
 
 ---
 

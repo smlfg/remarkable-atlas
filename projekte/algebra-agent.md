@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** Python 3 · ~36.700 Zeilen · 967 Testmethoden
 **Nutzen:** Ersetzt die Rückfrage bei einem Menschen: ein Hinweis in Sekunden, direkt auf der Seite, ohne den Lernfluss zu unterbrechen.
+**Belegt:** 967 Testmethoden im Repo; das Anhängen lässt die Schülertinte byte-identisch, und die Originalblöcke bleiben erhalten.
 
 ---
 

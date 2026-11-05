@@ -6,6 +6,7 @@
 **Reifegrad:** Archiv
 **Stack:** JSONL-Mitschnitt, Markdown, PNG · 725 JSONL-Zeilen (doppelt, 8,8 MB)
 **Nutzen:** Belegt, dass eine Sprach-plus-Stift-Schleife in 25 Minuten vier Runden schafft — ohne Tastatur.
+**Belegt:** Der Mitschnitt selbst: vier Runden in 25 Minuten, ohne Tastatur.
 
 ---
 

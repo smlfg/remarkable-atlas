@@ -6,7 +6,7 @@
 
 Seit Oktober 2026 baue ich an einem Mathe-Tutor für das reMarkable Paper Pro. Der Anspruch: Ein Blatt Papier soll rechnen können. Wer eine Aufgabe schreibt, bekommt einen kurzen Hinweis neben der eigenen Handschrift — kein Chatfenster, kein Handy, keine App dazwischen.
 
-Der Weg dahin war nicht gerade. **188 dokumentierte Versuche, sieben Vorläufer-Codebasen, zwei Retrospektiven.** Was hier steht, ist deshalb nicht die Erfolgsgeschichte, sondern der belastbare Teil davon: was funktioniert, was nicht, und woran man es erkennt.
+Der Weg dahin war nicht gerade. **188 dokumentierte Versuche, sieben Vorläufer-Codebasen, zwei Retrospektiven.** Die 188 stammen aus `algebra-graveyard` und zählen einzelne Varianten-Läufe; die ältere Retrospektive `remarkable-graveyard` zählt 25 übergeordnete Versuche und 69 klassifizierte Fehler. Beide Datensätze überlappen sich — die 63 Fehler des älteren Snapshots sind in den 188 Versuchen enthalten — und keiner ersetzt den anderen. Was hier steht, ist deshalb nicht die Erfolgsgeschichte, sondern der belastbare Teil davon: was funktioniert, was nicht, und woran man es erkennt.
 
 ![Rote Unterstreichung unter dem falschen Schritt 3x+2=15, daneben der Hinweis „Distributivgesetz: Jeden Summanden in der Klammer mit dem Faktor davor multiplizieren."](media/hero-hinweis.png)
 

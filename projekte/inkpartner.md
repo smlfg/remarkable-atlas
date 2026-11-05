@@ -6,6 +6,7 @@
 **Reifegrad:** Prototyp
 **Stack:** Python 3, rmscene, Pillow, sympy, numpy · ~6.300 Zeilen · 93 Tests auf `main`
 **Nutzen:** Zeigt, dass Rückmeldung nicht nur Text sein muss — ein Haken und ein Kreis sind schneller zu erfassen als ein Satz.
+**Belegt:** 93 Tests auf `main`; Zeichensprache und Guards sind durch Fixtures abgedeckt, nicht durch einen Gerätelauf.
 
 ---
 

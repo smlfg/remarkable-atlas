@@ -6,6 +6,9 @@
 **Reifegrad:** Archiv
 **Stack:** Python 3 (Generator und Prüfwerkzeuge), HTML/CSS/JS, JSON · ~570 Zeilen Python
 **Nutzen:** Dieselbe Lehre in 300 KB, offline lesbar, ohne Server.
+**Belegt:** 69 Fehler mit Ursache und Konfidenz; `build.py --check` hält Seite und Datensatz synchron.
+
+Diese Retrospektive ist die **ältere** und zählt gröber als `algebra-graveyard`: 25 Versuche hier gegen 188 Varianten-Läufe dort. Alle 63 Fehler des Snapshots sind in den 188 enthalten; beide Datensätze wurden inhaltlich abgeglichen.
 
 ---
 
