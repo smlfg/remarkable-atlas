@@ -10,6 +10,8 @@ Der Weg dahin war nicht gerade. **188 dokumentierte Versuche, sieben Vorläufer-
 
 ![Rote Unterstreichung unter dem falschen Schritt 3x+2=15, daneben der Hinweis „Distributivgesetz: Jeden Summanden in der Klammer mit dem Faktor davor multiplizieren."](media/hero-hinweis.png)
 
+**Neu am 05.11.2026:** Ein Live-Lauf hielt 2.281 Striche und 1.448.782 Events ohne einen einzigen `SYN_DROPPED` fest. Das 0711-Dataset liegt final mit zehn Seiten vor. Im 18a-Benchmark ist `nextstep` der beste offene Hinweis. Der Writeback bleibt Host-Dryrun.
+
 ---
 
 ## Wenn du nur zwei anschaust
@@ -50,7 +52,7 @@ Das ist keine Rangfolge. `keepitsimple` ist das reifste Projekt (441 Tests, voll
 | **underline** | Unterstreicht die falsche Zeile rot und hakt richtige grün ab, ohne die Handschrift anzutasten. | Prototyp | [Detail](projekte/underline.md) |
 | **pur** | Eine Seite, ein lokales Modell, ein angehängter Text. Ohne Cloud, ohne Konto. | Prototyp | [Detail](projekte/pur.md) |
 | **budget** | Schickt beim Zurückschreiben nur den neuen Byte-Anhang und zählt Requests, Bytes und Tokens. | Werkzeug | [Detail](projekte/budget.md) |
-| **keepitsimple** | Messplatz: liest den Stiftstrom live mit und stellt mehrere Tutor-Antworten zum Blindvergleich. | Werkzeug | [Detail](projekte/keepitsimple.md) |
+| **keepitsimple** | Messplatz: liest den Stiftstrom live mit, stellt elf Tutor-Strategien gegenüber, protokolliert deine Wahl. Seit 05.11.2026: Live-MLOps, 10-Seiten-Dataset 0711, 12 Übergabepakete; 441 Tests. | Werkzeug | [Detail](projekte/keepitsimple.md) |
 | **mlops-gedanken** | 18 echte Seiten, Ground Truth, Benchmarks — und der Nachweis, welche Pipeline-Stufe wirklich trägt. | Werkzeug | [Detail](projekte/mlops-gedanken.md) |
 
 ## Rückblick und Umfeld
@@ -81,7 +83,7 @@ Die Skala ist absichtlich streng. „Fertig" heißt hier: auf dem Gerät belegt,
 
 ## Der Kern in einem Absatz
 
-`algebra-agent` ist das einzige Projekt, das den ganzen Kreis schließt: Seite lesen, Schritt prüfen, Tinte zurückschreiben. Die übrigen 15 sind Zulieferer (`pur`, `underline`, `budget`, `inkpartner`), Messgeräte (`keepitsimple`, `mlops-gedanken`), Bedienoberflächen (`penecho-mac`, `penecho-lens`), Verträge und Nachschlagewerke (`penecho`, `skills-paper-pro`), Rückblicke (`algebra-graveyard`, `remarkable-graveyard`, `rm-drill`) oder Drumherum (`remake-website`, `CherryPicking`).
+`algebra-agent` ist das einzige Projekt, das den ganzen Kreis schließt: Seite lesen, Schritt prüfen, Tinte zurückschreiben. Die übrigen 15 sind Zulieferer (`pur`, `underline`, `budget`, `inkpartner`), Messgeräte (`keepitsimple`, `mlops-gedanken`), Bedienoberflächen (`penecho-mac`, `penecho-lens`), Verträge und Nachschlagewerke (`penecho`, `skills-paper-pro`), Rückblicke (`algebra-graveyard`, `remarkable-graveyard`, `rm-drill`) oder Drumherum (`remake-website`, `CherryPicking`). Seit dem 05.11.2026 dokumentiert `keepitsimple` zusätzlich den Live-MLOps-Lauf und die zwölf Übergabepakete.
 
 ---
 
