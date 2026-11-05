@@ -23,7 +23,7 @@ Der ehrliche Stand: erfüllt sind **0 von 3** erprobten Sitzungen.
 
 ## Der Kern
 
-| Projekt | Was es kann | Reifegrad | |
+| Projekt | Was es kann | Reifegrad | Detail |
 |---|---|---|---|
 | **algebra-agent** | Liest die Seite, findet den ersten falschen Rechenschritt, schreibt einen Hinweis als Tinte daneben. | Prototyp | [Detail](projekte/algebra-agent.md) |
 | **penecho** | Der Produktvertrag: sechs prüfbare Punkte, die erfüllt sein müssen, bevor von einem Tutor die Rede ist. | Dokument | [Detail](projekte/penecho.md) |
@@ -32,7 +32,7 @@ Der ehrliche Stand: erfüllt sind **0 von 3** erprobten Sitzungen.
 
 ## Zulieferer und Messgeräte
 
-| Projekt | Was es kann | Reifegrad | |
+| Projekt | Was es kann | Reifegrad | Detail |
 |---|---|---|---|
 | **inkpartner** | Denkt sich einen Lehrer mit Rotstift: Haken, Kreis, Fragezeichen — nach festen Regeln, nicht nach Modelllaune. | Prototyp | [Detail](projekte/inkpartner.md) |
 | **underline** | Unterstreicht die falsche Zeile rot und hakt richtige grün ab, ohne die Handschrift anzutasten. | Prototyp | [Detail](projekte/underline.md) |
@@ -43,7 +43,7 @@ Der ehrliche Stand: erfüllt sind **0 von 3** erprobten Sitzungen.
 
 ## Rückblick und Umfeld
 
-| Projekt | Was es kann | Reifegrad | |
+| Projekt | Was es kann | Reifegrad | Detail |
 |---|---|---|---|
 | **algebra-graveyard** | Chronik des Scheiterns: 188 Versuche, 13 Fehlermuster, 15 Lehren — jeder Satz mit Beleg. | Archiv | [Detail](projekte/algebra-graveyard.md) |
 | **remarkable-graveyard** | Dieselbe Idee kompakt: 25 Versuche, 69 Fehler, 34 Sackgassen in einer Offline-Seite. | Archiv | [Detail](projekte/remarkable-graveyard.md) |
